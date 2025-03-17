@@ -5,7 +5,7 @@ def main():
     
     # 模拟一些计算
     result = 0
-    for i in range(10):
+    for i in range(100):
         result += i
         yield f"Calculating: {result}"
     
